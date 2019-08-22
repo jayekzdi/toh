@@ -1,6 +1,10 @@
 <div *ngIf="hero" >
         <h2>{{hero.name | uppercase}} Details</h2>
-        <div><span>id:</span>{{hero.id}}</div>
+            <div class="details">
+                <img class="img-responsive" src="assets/img-hero/{{hero.img}}" alt="">
+            </div>
+        <div class="details"><span>ID:</span>{{hero.id}}</div>
+            
         <div>
             <label>Hero Name:
                 <input [(ngModel)]="hero.name" placeholder="name"/>
