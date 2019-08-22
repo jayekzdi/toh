@@ -1,0 +1,14 @@
+*{
+    color: #f6f8f9;
+    font-family: roboto;
+}
+.clear{
+    background: #abb0b2;
+    box-shadow:none;
+    border: 0;
+    padding: 2px 20px;
+    font-size:20px;
+}
+.msg{
+    font-size: 15px;
+}

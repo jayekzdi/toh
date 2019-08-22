@@ -1,0 +1,37 @@
+*{
+    font-family:Roboto;
+}
+#search-component h4{
+    font-size: 1em;
+}
+input{
+    width: 15rem;
+    border-radius:5px;
+    height:auto;
+    font-size:20px;
+}
+.search-result{
+    margin-top: 0;
+ padding-left: 0;
+    list-style: none;
+    width: 30ex;
+}
+
+.search-result li{
+    background: #ABB0B2;
+    border-right: solid 1px #f6f8f9;
+    border-left: solid 1px #f6f8f9;
+    border-bottom: solid 3px #f6f8f9;
+    line-height: 20px;
+    font-size:1.3em;
+    padding: 10px 0;
+    
+}
+.search-result li:hover{
+    background: #AA8D72;
+    color: #f6f8f9;
+}
+.search-result a{
+    text-decoration: none;
+    color: #f6f8f9;
+}
